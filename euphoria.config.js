@@ -1,6 +1,6 @@
 module.exports = {
   fontFamilies: {
-    serif: '"Slabo 27px", serif',
+    serif: '"Source Serif Pro", serif',
     'sans-serif': 'Montserrat, sans-serif',
   },
   fontSizes: {
