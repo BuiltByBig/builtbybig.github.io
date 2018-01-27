@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "euphoria",
+    "prestart": "npm run build",
+    "start": "onchange euphoria.config.js -- npm run build"
+  },
+  "devDependencies": {
+    "euphoria": "2.7.0",
+    "euphoria-cli": "2.7.0",
+    "onchange": "3.3.0"
+  },
+  "private": true
+}
