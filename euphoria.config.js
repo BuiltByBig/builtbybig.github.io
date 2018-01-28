@@ -107,6 +107,29 @@ module.exports = {
         },
       ],
     },
+    buttons: {
+      name: 'Buttons',
+      rules: opts => [
+        {
+          selector: '.button',
+          inherits: [
+            '.primary',
+            '.bg-gray-lightest',
+            '.txt-xl',
+            '.serif',
+            '.px-md',
+            '.py-sm',
+            '.center',
+            '.db',
+          ],
+        },
+        {
+          selector: '.button:hover',
+          inherits: ['.white', '.bg-primary'],
+        },
+      ],
+    },
+
     portfolio: {
       name: 'Portfolio',
       rules: opts => [
