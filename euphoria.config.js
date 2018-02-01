@@ -48,6 +48,7 @@ module.exports = {
           selector: 'a',
           properties: { transition: 'all 0.4s' },
           inherits: [
+            '.fw-bold',
             '.black',
             '.td-none',
             '.bb',
@@ -58,6 +59,10 @@ module.exports = {
         {
           selector: 'a:hover',
           inherits: ['.primary', '.bc-primary-lighter'],
+        },
+        {
+          selector: 'ul',
+          inherits: ['.lh-md', '.ml-md'],
         },
       ],
     },
@@ -84,7 +89,7 @@ module.exports = {
         },
         {
           selector: '.subsection-heading',
-          inherits: ['.txt-lg', '.serif', '.lh-sm', '.mt-md', '.fw-normal'],
+          inherits: ['.txt-xl', '.serif', '.lh-sm', '.mt-lg', '.fw-normal'],
         },
       ],
     },
